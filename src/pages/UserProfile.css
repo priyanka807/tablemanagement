@@ -1,0 +1,103 @@
+.profile-container{
+    width:100%;
+    background-color:#f8f9fa;
+    /* background: #daf2fd; */
+
+    height: 100vh;
+   padding:10px 10px;
+   transition: background-color 300ms;
+
+}
+.card-body{
+    flex: 1 1 auto;
+    padding: 1.25rem 1.5rem
+}
+.image_width{
+width: 100px;
+height:100px;
+border-radius:50%;
+margin-left:240px;
+border:1px solid gray;
+
+
+
+}
+
+.profile-sub-container{
+    width:650px;
+   margin: auto;
+
+}
+
+.profile-content{
+    width:100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    float: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    background-color: #ffff;
+    padding:30px 20px  20px  50px;
+    border-radius: 20px;
+}
+
+.users{
+margin-bottom: 10px;
+width: 90% !important;
+
+}
+
+input,select{
+    display: block;
+    margin-top: 10px;
+    border:1px solid rgba(128, 128, 128, 0.9);
+    border-radius: 5px;
+
+}
+.formHover:hover{
+    border:1px solid green;
+}
+.input-photo{
+    border:none !important;
+}
+.input-photo{
+    border:none !important;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #262b40;
+    border-color: #262b40;
+    box-shadow: inset 0 1px 0 hsla(0,0%,100%,.15), 0 1px 1px rgba(46,54,80,.075);
+  width:35%;
+  padding: 5px;
+}
+@media screen and (max-width:400px){
+    .profile-container{
+        width:158%;
+        
+    }
+    .profile-sub-container{
+        width:100%;
+        margin-left: 20px;
+
+    }
+    .image_width{
+        width: 80px;
+        height:80px;
+        margin-left:150px;
+        }
+        .users{
+            margin-bottom: 10px;
+            width: 70% !important;
+            
+            }
+           
+            .profile-content{
+                width:80%
+            }
+            .btn-primary{
+                width:50%;
+ 
+            }
+}

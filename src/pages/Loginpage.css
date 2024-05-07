@@ -1,0 +1,82 @@
+
+.form-container{
+    width:100%;
+    height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: background-color 300ms;
+   background-image:linear-gradient(1turn,#e82a7a,#a23edd) ;
+
+}
+
+.form-content{
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;;
+   background-color:#ffffff;
+   border-radius:20px;
+   padding:30px;
+   width:350px;
+   height:560;
+
+}
+.custom-class{
+  height: 620px;
+
+}
+form .continue,.twitter,.facebook,.emailId,.password,.signup,.log-out{
+   margin: auto;
+   background-color: hsl(0, 0%, 90%);
+   transition: background-color 300ms;
+  outline:none;
+  border:none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  padding: 10px;
+  border-bottom:1px solid gray;
+  width: 100%;
+  margin-bottom:20px;
+ }
+.log-out{
+  background-color: #a23edd;
+}
+ .twitter{
+   background-color:rgb(4, 179, 249);
+ }
+ .twitter:hover{
+   background-color:   rgb(11, 182, 249)
+   ;
+ }
+ .facebook{
+   background-color:rgb(47, 29, 249);
+   color:white;
+
+ }
+ .facebook:hover{
+   background-color:rgb(41, 34, 114);
+ 
+ }
+ .continue{
+   background-color:rgb(249, 72, 72) !important;  border-bottom:1px solid gray;
+   color:white;
+
+ }
+ .continue:hover{
+   background-color:    rgb(250, 172, 172)!important;  border-bottom:1px solid gray;
+
+ }
+ .emailId,.password{
+   background-color: white !important;
+   border-bottom:1px solid darkmagenta !important;
+   box-shadow: none !important;
+
+ }
+
+ .errors{
+padding-top:20px;
+  color: red;
+
+}
+
+Link{
+  color:black;
+}
+

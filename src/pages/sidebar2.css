@@ -1,0 +1,30 @@
+
+.sidebar2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    background-color:rgb(34 33 33 / 84%);
+    color:white;
+    z-index:9999;
+    padding:20px 15px;
+    transition: width 0.3s ease;
+
+  
+}
+.hidden{
+    display: none;
+}
+
+.sidebar2 h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size:0.8em;
+    margin-bottom:20px;
+
+     
+}
+ .icon{
+ margin-right:10px;
+}
